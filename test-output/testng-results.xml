@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-09-05T17:13:05 EDT" name="Default suite" finished-at="2022-09-05T17:13:20 EDT" duration-ms="14302">
+  <suite started-at="2022-09-06T11:17:19 EDT" name="Default suite" finished-at="2022-09-06T11:18:05 EDT" duration-ms="46096">
     <groups>
     </groups>
-    <test started-at="2022-09-05T17:13:05 EDT" name="Default test" finished-at="2022-09-05T17:13:20 EDT" duration-ms="14302">
+    <test started-at="2022-09-06T11:17:19 EDT" name="Default test" finished-at="2022-09-06T11:18:05 EDT" duration-ms="46096">
       <class name="javaSeleniumTest.TestTestNg02">
-        <test-method signature="googleSerch()[pri:0, instance:javaSeleniumTest.TestTestNg02@e350b40]" started-at="2022-09-05T17:13:06 EDT" name="googleSerch" finished-at="2022-09-05T17:13:20 EDT" duration-ms="14160" status="PASS">
+        <test-method signature="googleSerch()[pri:0, instance:javaSeleniumTest.TestTestNg02@e350b40]" started-at="2022-09-06T11:17:19 EDT" name="googleSerch" finished-at="2022-09-06T11:18:05 EDT" duration-ms="45870" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- googleSerch -->
