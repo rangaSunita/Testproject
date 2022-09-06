@@ -24,6 +24,7 @@ public class TestTestNg02 {
     serchBox.sendKeys("Google text");
     serchBox.sendKeys(Keys.ENTER);
     driver.close();
+    //test
     
     
 	}
