@@ -8,26 +8,29 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
+ 
+@test 
+public class TestBrowserCommand {
 
-public class TestTestNg02 {
-	
 	@Test
-	public void googleSerch() {
+	public void googleSerch() throws InterruptedException {
 	
 	WebDriver driver;
 	WebDriverManager.chromedriver().setup();
 	
 	driver = new ChromeDriver();
-	driver.get("https://www.google.com");
-    WebElement serchBox = driver.findElement(By.xpath("/html/body/div[1]/div[3]/form/div[1]/div[1]/div[1]/div/div[2]/input"));
-    
-    serchBox.sendKeys("Google text");
-    serchBox.sendKeys(Keys.ENTER);
+	driver.get("https://www.OrangeHRM.com");
+	Thread.sleep(3000);
+	System.out.println("Title of the page " + driver.getTitle());
+	
+	String CurrentUrl = driver.getCurrentUrl();
+	System.out.println("this is CurrentUrl "+ CurrentUrl);
+	
+	driver.navigate().back();
+	driver.navigate().refresh();
+	
+   
     
     driver.close();
-    //test
-    
-    
 	}
 }
-
