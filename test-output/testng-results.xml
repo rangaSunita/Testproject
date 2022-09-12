@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-09-06T11:17:19 EDT" name="Default suite" finished-at="2022-09-06T11:18:05 EDT" duration-ms="46096">
+  <suite started-at="2022-09-12T10:15:11 EDT" name="Default suite" finished-at="2022-09-12T10:15:22 EDT" duration-ms="11494">
     <groups>
     </groups>
-    <test started-at="2022-09-06T11:17:19 EDT" name="Default test" finished-at="2022-09-06T11:18:05 EDT" duration-ms="46096">
-      <class name="javaSeleniumTest.TestTestNg02">
-        <test-method signature="googleSerch()[pri:0, instance:javaSeleniumTest.TestTestNg02@e350b40]" started-at="2022-09-06T11:17:19 EDT" name="googleSerch" finished-at="2022-09-06T11:18:05 EDT" duration-ms="45870" status="PASS">
+    <test started-at="2022-09-12T10:15:11 EDT" name="Default test" finished-at="2022-09-12T10:15:22 EDT" duration-ms="11494">
+      <class name="javaSeleniumTest.HerokuappLogin">
+        <test-method signature="googleSerch()[pri:0, instance:javaSeleniumTest.HerokuappLogin@e350b40]" started-at="2022-09-12T10:15:11 EDT" name="googleSerch" finished-at="2022-09-12T10:15:22 EDT" duration-ms="11416" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- googleSerch -->
-      </class> <!-- javaSeleniumTest.TestTestNg02 -->
+      </class> <!-- javaSeleniumTest.HerokuappLogin -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
