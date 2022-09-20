@@ -32,8 +32,9 @@ public void googleSerch() throws InterruptedException {
        driver.navigate().back();
        WebElement Linkbtn = driver.findElement(By.xpath("//*[@id=\'page-footer\']/div/div/a"));
        Linkbtn.click();
+       driver.navigate().refresh();
        
-       driver.close();
+       driver.quit();
        
 }      
 }

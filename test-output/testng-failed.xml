@@ -3,11 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="javaSeleniumTest.HerokuappLogin">
+      <class name="javaSeleniumTest.SeleniumWait">
         <methods>
-          <include name="googleSerch"/>
+          <include name="explicitlyWait"/>
+          <include name="stopDriver"/>
+          <include name="setup"/>
         </methods>
-      </class> <!-- javaSeleniumTest.HerokuappLogin -->
+      </class> <!-- javaSeleniumTest.SeleniumWait -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
