@@ -3,13 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="javaSeleniumTest.SeleniumWait">
+      <class name="javaSeleniumTest.TableElement">
         <methods>
-          <include name="explicitlyWait"/>
           <include name="stopDriver"/>
+          <include name="getTableData"/>
           <include name="setup"/>
+          <include name="getElementsFormTable"/>
         </methods>
-      </class> <!-- javaSeleniumTest.SeleniumWait -->
+      </class> <!-- javaSeleniumTest.TableElement -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
